@@ -34,7 +34,7 @@ spec:
           name: wordpress
           env:
             - name: WORDPRESS_DB_NAME
-              value: hemdb
+              value: simondb
             - name: WORDPRESS_DB_USER
               value: hamster@hem-db-server
             - name: WORDPRESS_DB_HOST
