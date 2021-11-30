@@ -15,6 +15,15 @@ spec:
   #     secretName: hem-tls
   rules:
     - host: "haksunglee.xyz"
+      http:
+        paths:
+          - pathType: Prefix
+            path: "/"
+            backend:
+              service:
+                name: wordpress-service
+                port:
+                  number: 80
     - http:
         paths:
           - pathType: Prefix
