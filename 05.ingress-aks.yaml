@@ -14,7 +14,7 @@ spec:
   #       - "*.hemmu.xyz"
   #     secretName: hem-tls
   rules:
-    - host: "*.hemmu.xyz"
+    - host: "haksunglee.xyz"
     - http:
         paths:
           - pathType: Prefix
